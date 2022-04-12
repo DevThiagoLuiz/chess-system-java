@@ -8,7 +8,7 @@ public class Piece extends Position{
 		this.board = board;
 		position = null;
 	}
-	public Board getBoard() {
+	protected Board getBoard() {
 		return board;
 	}
 	
